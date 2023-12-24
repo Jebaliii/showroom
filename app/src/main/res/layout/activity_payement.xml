@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Payement">
+
+    <TextView
+        android:id="@+id/Coordonnee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Coordonnées " />
+
+    <EditText
+        android:id="@+id/Adresse_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Coordonnee"
+        android:hint=" Adresse e-mail  " />
+
+    <TextView
+        android:id="@+id/Addresse_livraison"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Adresse_mail"
+        android:layout_marginTop="10dp"
+        android:text=" Adresse de livraison " />
+
+    <EditText
+        android:id="@+id/Prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Adresse_mail"
+        android:layout_marginTop="20dp"
+        android:hint=" Prénom " />
+
+    <EditText
+        android:id="@+id/Nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Adresse_mail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint=" Nom " />
+
+    <EditText
+        android:id="@+id/Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Prenom"
+        android:hint=" Ligne d'addresse 1  " />
+
+    <EditText
+        android:id="@+id/Addresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Add"
+        android:hint=" Ligne d'addresse 2  " />
+
+    <EditText
+        android:id="@+id/Code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Addresse"
+        android:hint=" Code postal : " />
+
+    <EditText
+        android:id="@+id/ville"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Code"
+        android:hint="Ville" />
+    <Spinner
+        android:id="@+id/pays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ville" />
+
+    <TextView
+        android:id="@+id/paysaff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pays"
+        android:layout_marginTop="5dp"
+        android:text="Votre pays n'apparait pas dans la liste , allez a notre boutique Tunisia.tn" />
+
+    <EditText
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paysaff"
+        android:hint=" Téléphone : " />
+
+    <CheckBox
+        android:id="@+id/Agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tel"
+        android:layout_centerHorizontal="false"
+        android:text="I Agree " />
+
+    <Button
+        android:id="@+id/Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Agree"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:text="Buy" />
+
+</LinearLayout>

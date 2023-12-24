@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detailvoiture"
+    android:background="#FFFFFF"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/inf"
+        android:background="#7B797E"
+        />
+
+
+    <TextView
+        android:id="@+id/marque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_marginTop="20dp"
+        android:text="Marque"
+        android:textColor="#3F51B5"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/modele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_marginTop="21dp"
+        android:text="Modele"
+        android:textColor="#3F51B5"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modele"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="20dp"
+        android:text="Prix"
+        android:textColor="#3F51B5"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/options"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price"
+        android:layout_marginTop="10dp"
+        android:text=" Option : "
+        android:textColor="#3F51B5"
+        android:layout_marginBottom="20dp"
+        android:textSize="25sp" />
+
+
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/options"
+        android:text="Airbag"
+        android:id="@+id/airbag"
+        android:textColor="#03A9F4"
+        android:textSize="24dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/airbag"
+        android:text="Climatisseur"
+        android:id="@+id/clim" android:textSize="24dp"
+        android:textColor="#03A9F4"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clim"
+        android:text="Régulateur De Vitesse"
+        android:id="@+id/régulateur"
+        android:textSize="24dp"
+        android:textColor="#03A9F4"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/régulateur"
+        android:text="Jante Alu"
+        android:id="@+id/jante"
+        android:textColor="#03A9F4"
+        android:textSize="24dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jante"
+        android:text="Toit Panoramique"
+        android:id="@+id/toit"
+        android:textSize="24dp"
+        android:textColor="#03A9F4"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toit"
+        android:text="Sallon cuire"
+        android:id="@+id/sallon"
+        android:textSize="24dp"
+        android:textColor="#03A9F4"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sallon"
+        android:text="Nitro"
+        android:id="@+id/Nitro"
+        android:textSize="24dp"
+        android:textColor="#03A9F4"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nitro"
+        android:layout_centerHorizontal="true"
+        android:text="Total"
+        android:id="@+id/tot"
+        />
+</LinearLayout>

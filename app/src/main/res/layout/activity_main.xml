@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/pla">
+
+
+    <EditText
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="48dp"
+        android:hint="Login"
+        android:singleLine="false"
+        android:textColor="#F3EAEA"
+        android:textColorHighlight="#F3EAEA"
+        android:textColorHint="#F3EAEA"
+        android:textColorLink="#F3EAEA"
+        android:textSize="32sp"
+        android:visibility="visible"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="48dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#F3EAEA"
+        android:textColorHighlight="#F3EAEA"
+        android:textColorHint="#F3EAEA"
+        android:textColorLink="#F3EAEA"
+        android:textSize="32sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="75dp"
+        android:id="@+id/connect"
+        android:hint="Connect"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="Vous n'avez pas de compte ? Inscrivez-vous ici."
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#FFEB3B"
+        android:textColorHint="#FFEB3B"
+        android:textColorLink="#FFEB3B"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

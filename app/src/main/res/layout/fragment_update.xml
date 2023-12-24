@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Update Car"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:id="@+id/Car_id"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txt"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:hint="Car ID"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:id="@+id/updated_marque"
+        android:layout_width="250dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/Car_id"
+        android:hint="Car Marque" />
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:id="@+id/updated_modele"
+        android:layout_width="250dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/updated_marque"
+        android:hint="Car Model" />
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:id="@+id/updated_price"
+        android:layout_width="250dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/updated_modele"
+        android:hint="Car Prix"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:id="@+id/updated_methode"
+        android:layout_width="250dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/updated_price"
+        android:hint="Car Paiement"
+         />
+
+
+    <Button
+        android:layout_centerInParent="true"
+        android:id="@+id/btnUpdateCar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/updated_methode"
+        android:text="Update Car" />
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="coordonnee">Coordonnée</string>
+    <string name="adresse_mail">Adresse_mail</string>
+    <string name="adresse_livraison">Addresse_livraison</string>
+    <string name="prenom">Prenom</string>
+    <string name="nom">Nom</string>
+    <string name="update_user">UPDATE</string>
+    <string name="add_user">ADD</string>
+    <string name="del_user">DELETE</string>
+    <string name="app_name">showroom</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
